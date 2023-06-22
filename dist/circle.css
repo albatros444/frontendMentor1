@@ -1,0 +1,44 @@
+.circle_cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+}
+
+.circle_numbers {
+  margin-top: 10px;
+}
+
+p.circle_numbers_up {
+  margin: 0;
+  font-size: 52px;
+  color: white;
+  font-weight: bold;
+}
+
+.circle_numbers_down {
+  margin: 0;
+  color: hsla(241, 100%, 89%, 0.5);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .circle_cont {
+    height: 130px;
+  }
+  .circle {
+    width: 130px;
+    height: 130px;
+  }
+}/*# sourceMappingURL=circle.css.map */
